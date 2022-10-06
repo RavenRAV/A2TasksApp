@@ -1,6 +1,5 @@
 package com.example.android4lesson1.ui.profile
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -14,11 +13,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.provider.FontsContractCompat.FontRequestCallback.RESULT_OK
-import com.example.android4lesson1.R
 import com.example.android4lesson1.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {

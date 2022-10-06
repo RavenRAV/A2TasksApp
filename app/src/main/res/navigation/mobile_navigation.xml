@@ -30,6 +30,6 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.android4lesson1.ui.profile.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
